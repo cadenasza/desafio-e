@@ -75,7 +75,7 @@ label{
 
 .input-form{
     display: block;
-    width:15vw;
+    width:18.5vw;
     padding: 0.7rem;
     border-radius: 6px;
     border: 1px solid #c2c1c1;
@@ -83,7 +83,7 @@ label{
 
 .remember {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-top: 2rem;
     display: flex;
@@ -98,9 +98,76 @@ label{
     text-decoration: none;
     font-size: .7rem;
     margin-left: 1.5rem;
+    color:#4BA1FF;
 }
 
-.esqueceu-senha:hover{
+.esqueceu-senha:hover, .criar-conta a:hover{
     color: black;
     border-bottom: 1px solid #000;
+}
+
+.div-botoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 8vh;
+}
+
+.btn, .btn-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    padding: .8rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #007AFF;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    font-size: .9rem;
+    padding: 0.9rem;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+}
+
+.btn-google:hover {
+    background-color: transparent;
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+.icone-google {
+    font-size: 18px;
+}
+
+.criar-conta{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.criar-conta h3{
+    font-size: .7rem;
+}
+
+.criar-conta a{
+    text-decoration: none;
+    font-size: .8rem;
+    color: #4BA1FF;
 }
