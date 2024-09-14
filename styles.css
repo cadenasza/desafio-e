@@ -49,6 +49,22 @@ body{
     font-size: 1.5rem;
 }
 
+
 .titulo-login{
     font-size: 1.2rem;
+    margin-left: 0.3rem;
 }
+
+.div-formulario{
+    margin-top:1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.email, .password{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.2rem;
+}
+
