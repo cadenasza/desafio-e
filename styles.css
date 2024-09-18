@@ -177,6 +177,10 @@ label{
     display: none;
 }
 
+.fa-regular{
+    cursor: pointer;
+}
+
 @media screen and (max-width:700px) {
 
     .container-img{
